@@ -70,10 +70,29 @@
     grid-column-end: 3;
     grid-row-start: 2;
     grid-row-end: 5;
+    /* Совмещаем свойства start и end */
+    /* grid-column: 1/3; */
 }
 
 /* Перетащили столбец 7 на место стоблбца 2 */
-.item_7 {
+/* .item_7 {
     grid-row-start: 1;
     grid-column-start: 2;
+} */
+
+.link {
+    height: 50px;
+    width: 600px;
+    margin: 0 auto;
+    background-color: lightcoral;
+    text-align: center;
+    margin-top: 20px;
+    
+}
+
+.link1 {
+    font-size: 20px;
+    text-decoration: none;
+    color: black;
+    
 }
