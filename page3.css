@@ -118,3 +118,28 @@
     grid-column: 1;
     grid-row: 2/4;
 }
+
+.link {
+    height: 100px;
+    width: 600px;
+    margin: 0 auto;
+    background-color: lightcoral;
+    text-align: center;
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.link1 {
+    font-size: 20px;
+    text-decoration: none;
+    color: black;
+    padding: 5px;
+    
+}
+
+.link1 a:hover {
+    border-bottom: 1px solid black;
+}
+
